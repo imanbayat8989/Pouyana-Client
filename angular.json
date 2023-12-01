@@ -70,6 +70,11 @@
           "configurations": {
             "production": {
               "browserTarget": "Pouyana-Client:build:production"
+            },"options": {
+              "browserTarget": "Pouyana-Client:build",
+              "sslKey": "./ssl/server.key",
+              "sslCert": "./ssl/server.crt",
+              "ssl": true
             },
             "development": {
               "browserTarget": "Pouyana-Client:build:development"
